@@ -8,7 +8,7 @@ const PanelGalary = () => {
     setActivePanel(index);
   };
   return (
-    <div className="container">
+    <div className="Galarycontainer">
       {panelData.map((panel, index) => (
         <div
           key={index}

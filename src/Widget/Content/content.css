@@ -1,0 +1,20 @@
+.content {
+  margin: 70px;
+}
+
+.content h1 {
+  margin-bottom: 0;
+}
+.content small {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.content p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.content img {
+  max-width: 100%;
+}

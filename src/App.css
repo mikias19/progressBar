@@ -1,7 +1,24 @@
 .wrapperDiv {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  justify-content: center; */
+  position: relative;
+  min-height: 100vh;
+  background-color: #333;
+  color: #222;
+  overflow-x: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: white;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
 }

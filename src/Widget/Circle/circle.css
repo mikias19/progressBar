@@ -1,0 +1,44 @@
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  background-color: #ff7979;
+
+  border-radius: 50%;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+  position: absolute;
+
+  top: 50%;
+
+  left: 60%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 70%;
+  top: 60%;
+  transform: translateX(-100px);
+}
+.circle button#close {
+  top: 65%;
+}
+.circle.show-nav {
+  transform: rotate(-70deg);
+}
