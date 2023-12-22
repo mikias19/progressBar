@@ -1,0 +1,42 @@
+.search {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.search .input {
+  position: absolute;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease-in;
+  padding: 15px;
+  background-color: #fff;
+  border: none;
+}
+
+.search .btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in;
+  background-color: #fff;
+  border: none;
+}
+
+.search .btn:focus,
+.search .input:focus {
+  outline: none;
+}
+
+.search .btn .icon {
+  color: #222;
+}
+.search.active .input {
+  width: 200px;
+}
+.search.active .btn {
+  transform: translateX(198px);
+}
