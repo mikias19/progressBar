@@ -1,0 +1,35 @@
+.formField {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .formField {
+    width: 100%;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+
+  .input {
+    font-size: 12px;
+  }
+}
