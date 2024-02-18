@@ -1,4 +1,4 @@
-/* .wrapperDiv {
+/* /* .wrapperDiv {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,6 @@
   overflow-x: hidden; */
 /* min-height: 100vh;
 } */
-*/
 
 /* .container {
   position: absolute;
@@ -24,7 +23,9 @@
 
 .container.show-nav {
   transform: rotate(-20deg);
-} */
+/* } */
+
+/*
 .wrap {
   text-align: center;
 }
@@ -58,4 +59,4 @@
   background-color: #333;
   color: white;
   font-size: 14px;
-}
+}  */

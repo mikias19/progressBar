@@ -5,7 +5,7 @@ import "./navBar.css";
 
 const NavBar = ({ isNavOpen }) => {
   return (
-    <nav className={`nav ${isNavOpen ? "show-nav" : "none"}`}>
+    <nav className={isNavOpen && "Navshownav"}>
       <ul>
         <li>
           <i className="icon">

@@ -1,37 +1,41 @@
-.nav {
-  position: fixed;
-  left: 0;
-  bottom: 40px;
-  max-height: 100vh;
-}
 nav {
-  color: white;
-}
-nav ul {
-  list-style: none;
-}
-nav ul li {
-  margin: 10px;
-  text-transform: uppercase;
-  transition: transform 0.5s ease;
-  transition-delay: 0.2s;
-  transform: translate(-150px);
-}
-nav ul li i {
-  font-size: 22px;
-  margin-right: 10px;
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
+nav ul {
+  margin: 10px;
+}
+
+nav ul li {
+  color: white;
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  transform: translateX(-100px);
+  transition-delay: 0.5s;
+  transition: transform 0.5s ease-in;
+}
+
+nav ul li i {
+  margin-right: 5px;
+}
 nav ul li + li {
   margin-left: 20px;
-  transform: translate(-200px);
+  transform: translateX(-150px);
+  transition: transform 0.5s ease-in;
 }
 
 nav ul li + li + li {
   margin-left: 40px;
-  transform: translate(-250px);
+  transform: translateX(-200px);
+  transition: transform 0.5s ease-in;
 }
 
-.nav.show-nav ul li {
-  transform: translate(0);
+nav.Navshownav ul li {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in;
 }

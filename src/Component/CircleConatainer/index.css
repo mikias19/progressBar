@@ -1,0 +1,11 @@
+.container {
+  background-color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+
+.container.shownav {
+  transform: rotate(-20deg);
+}

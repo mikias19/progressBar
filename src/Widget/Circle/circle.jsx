@@ -1,15 +1,15 @@
 import React from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import "./circle.css";
-const Circle = ({ isNavOpen, toogleNav }) => {
-  const circlesClases = isNavOpen ? "circle show-nav" : "circle";
+const Circle = ({ isNavOpen, handleToggleNav }) => {
+  const classLsut = isNavOpen ? "circle shownav" : "circle";
   return (
     <div className="circle-container">
-      <div className={circlesClases}>
-        <button onClick={toogleNav} id="close">
+      <div className={classLsut}>
+        <button type="button" id="open " onClick={handleToggleNav}>
           <FaBars />
         </button>
-        <button onClick={toogleNav} id="open">
+        <button type="button" id="close" onClick={handleToggleNav}>
           <FaTimes />
         </button>
       </div>
